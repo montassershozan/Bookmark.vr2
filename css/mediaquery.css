@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Bookmark sec */
+  h1::after {
+    width: 33% !important;
+    left: 34% !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  *{
+    font-size:0.9rem !important;
+  }
+  h1{
+    font-size: 2rem !important;
+  }
+      /* Bookmark sec */
+  h1::after {
+    width: 75% !important;
+    left: 14% !important;
+  }
+#submitBtn{
+  padding: 0.3rem !important;
+}
+#editBtn{
+  padding: 0.3rem !important;
+}
+}
